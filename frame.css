@@ -1,0 +1,238 @@
+
+.container{
+    width:1000px;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    font-family: "Trirong", serif;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    border:2px solid black;
+    height:35px;
+    background-color: rgb(255, 255, 255);
+    align-items:last baseline;
+    /* border-bottom: 3px solid rgb(0, 0, 0); */
+}
+.left{
+    display: flex;
+    width:90%
+}
+.right{
+    display:flex;
+    flex-direction: row;
+}
+.clock, .search, .login{
+    height:35px;
+    width:80px;
+}
+.upperBox{
+    display: flex;
+    flex-direction: row;
+    height: 160px;
+    /* border:10px solid black; */
+    padding-top:10px;
+    padding-bottom: 5px;
+    justify-content: space-between;
+}
+.upperBox-leftCorner{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width:795px;
+    margin-right: 5px;
+    overflow-y: scroll; /* Show scrollbars */
+    padding: 5px;
+}
+.diagolnalines{
+   height:150px;
+   border: 1px solid black;
+}
+.radioButton{
+    display: flex;
+    justify-content: center;
+}
+.upperBox-rightCorner{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width:200px;
+    /* overflow-y: scroll;  */
+}
+.loginInfo{
+    position: relative;
+    display: block;
+    height:20px;
+    background-color: rgb(210, 208, 206);
+    z-index: 1;
+    align-items: center;
+    padding-left: 10px;
+}
+.lower{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll; 
+    align-items: center;
+    justify-content: space-around;
+}
+.lowerBox{
+    display: flex;
+    flex-direction: row;
+    height: 460px;
+    background-color: rgb(255, 255, 255);
+    padding-top:5px;
+}
+.lowerBox-leftCorner{
+    height:100%;
+    width:80%;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.lowerBox-rightCorner{
+    height:100%;
+    width:20%;
+    border:1px solid black;
+}
+.adspace{
+    position: relative;
+    display: block;
+    height:20px;
+    background-color: rgb(210, 208, 206);
+    z-index: 1;
+    align-items: center;
+}
+.adspaceScroll{
+    overflow-y:scroll;
+    height: 95.5%;
+}
+.statistics-Features{
+    display: flex;
+    flex-direction: row;
+    height:60%;
+    width:100%;
+    padding-bottom: 5px;
+    justify-content: space-between;
+}
+.tests{
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    width:100%;
+}
+.statistics{
+    width:28.5%;
+    height: 100%;
+    border:1px solid black;
+    margin-right: 1.5%;
+}
+.statisticstitle{
+    position: relative;
+    display: block;
+    height:20px;
+    background-color: rgb(210, 208, 206);
+    z-index: 1;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.statisticsdetails{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.blueButton{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    align-items: center;
+    height:30px;
+    width: 30px;
+    float:right;
+    border-radius: 50%;
+    border-color:  rgb(3, 3, 52);
+    background-color:rgb(59, 59, 221);
+}
+.blueButtonDiv{
+    position: absolute;
+    margin-left: 120px;
+}
+.features{
+    width:70%;
+    height: 100%;
+}
+.featuresTitle{
+    height: 10%;
+    margin-bottom: 1%;
+    border:1px solid black;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.featuresLogo{
+    height: 87.5%;
+    border:1px solid black;
+}
+.fd{
+    overflow-y: scroll;
+    height: 248px;
+    padding-left: 10px;
+}
+.popularTest{
+    width:28.5%;
+    height: 100%;
+    margin-right: 1.5%;
+}
+.recomendedTest{
+    width:70%;
+    height: 100%;
+}
+.popularTestTitle, .recomendedTestTitle{
+    height:30px;
+    border:1px solid black;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.popularTestdetailes, .recomendedTestDetailes{
+    height: 145px;
+    border:1px solid black;
+}
+.populardetalies{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 125px;
+}
+.recomendeddetalies{
+    overflow-y: scroll;
+    height:125px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;   
+    padding-left: 10px;
+}
+.blueButton2{
+    height:25px;
+    width: 25px;
+    border-radius: 50%;
+    border-color:  rgb(2, 2, 101);
+    background-color:rgb(59, 59, 221);
+}
+.bb{
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+    position: absolute;
+    display: block;
+    height:15px;
+    width:220px;
+    border:2px solid black;
+    border-radius: 2px;
+    z-index:1;
+    /* padding:2px; */
+}
